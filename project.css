@@ -1,20 +1,32 @@
+body{
+    margin: 1%;
+    background: url(./background.avif) no-repeat center fixed;
+    background-size: cover;
+}
 * {
     box-sizing: border-box;
   }
+  .head {
+    font-family:Verdana;
+    color:aquamarine;
+    background-color:grey;
+    padding:15px;
+    text-align:center;
+  }
   
-  .menu {
+  .menu  {
     float: left;
     width: 20%;
     text-align: center;
   }
   
   .menu a {
-    background-color: #e5e5e5;
+    background-color: grey;
     padding: 8px;
     margin-top: 7px;
     display: block;
     width: 100%;
-    color: black;
+    color: aquamarine;
   }
   
   .main {
@@ -24,17 +36,25 @@
   }
   
   .right {
-    background-color: #e5e5e5;
-    float: left;
+    background-color: grey;
+    color: aquamarine;
+    float: right;
     width: 20%;
     padding: 15px;
     margin-top: 7px;
     text-align: center;
   }
+  .footer{
+    background-color:grey;
+    color: aquamarine;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+  }
   
   @media only screen and (max-width: 620px) {
     /* For mobile phones: */
-    .menu, .main, .right {
+    .menu, .main, .right, .head, .footer {
       width: 100%;
     }
   }

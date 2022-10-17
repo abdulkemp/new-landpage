@@ -2,6 +2,7 @@ body{
     margin: 1%;
     background: url(./background.avif) no-repeat center fixed;
     background-size: cover;
+    overflow: hidden;
 }
 * {
     box-sizing: border-box;
@@ -18,6 +19,7 @@ body{
     float: left;
     width: 20%;
     text-align: center;
+    overflow: auto;
   }
   
   .menu a {

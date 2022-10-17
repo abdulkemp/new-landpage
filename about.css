@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: grey;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+.sidebar a:hover:not(.active){
+    background-color: black;
+    color: aquamarine;
+}
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+.showcase .topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+.showcase-top{
+    position: relative;
+    z-index: 2;
+    height: 81px;
+}
+.showcase-top img{
+    width: auto;
+    position: absolute;
+    border-radius: 50%;
+    top: 70%;
+    left: 9%;
+    transform: translate(-100%, -100%);
+}
+.style {
+    box-sizing: border-box;
+}
+body{
+    margin: 1%;
+    background: url(./about-background.avif) no-repeat center fixed;
+    background-size: cover;
+}
+.header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.topnav ul{
+    overflow: hidden;
+    background-color: grey;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.topnav a:hover{
+    background-color: black;
+    color: aquamarine;
+}
+.avatar{
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.profile{
+    border-radius: 30%;
+}
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}

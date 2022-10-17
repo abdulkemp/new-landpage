@@ -34,7 +34,7 @@ body{
 }
 .topnav ul{
     overflow: hidden;
-    background-color: rgb(32, 133, 216);
+    background-color: grey;
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -48,8 +48,8 @@ body{
     font-size: 15px;
 }
 .topnav a:hover{
-    background-color: rgba(221, 221, 221, 0);
-    color: white;
+    background-color: black;
+    color: aquamarine;
 }
 .avatar{
     vertical-align: middle;
@@ -79,7 +79,7 @@ body{
     animation-name: example;
     animation-duration: 4s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    animation-delay: 5s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }

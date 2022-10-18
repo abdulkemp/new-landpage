@@ -115,3 +115,10 @@ div.content {
     padding: 1px 16px;
     height: 1000px;
 }
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .div,.header,.showcase,.showcase-top,.style,.textarea[name=message],.topnav,.sidebar a.active,.sidebar a:hover:not(.active),.div.content
+    .sidebar a, .body,.topnav ul {
+      width: 100%;
+    }
+  }

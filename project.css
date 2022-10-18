@@ -1,0 +1,26 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto",sans-serif;
+}
+.Avatar{
+    width: 90%;
+}
+.w3-container1{
+    width:40%
+}
+.w3-container2{
+    width: 20%;
+}
+.w3-container3{
+    width:15%;
+}
+.w3-container4{
+    width:50%;
+}
+.w3-round-xlarge1{
+    height:24px;
+    width:100%
+}
+.w3-round-xlarge2{
+    height:24px;
+    width:50%
+}

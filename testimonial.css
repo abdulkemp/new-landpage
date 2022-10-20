@@ -126,4 +126,8 @@ li a:hover{
     body{
       background-size: cover;
     }
+    ul{
+      margin: 0;
+      padding: 0;
+    }
   }

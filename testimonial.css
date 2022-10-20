@@ -72,3 +72,20 @@ body{
   button:hover, a:hover{
     opacity: 0.7;
   }
+  *{
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width:800px){
+    .flip-card, .flip-card-back, .flip-card-front, .flip-card-inner, .flip-card:hover{
+      width: 80%;
+      padding: 0;
+    }
+    .bottom-card, .title{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px){
+    .flip-card, .flip-card-back, .flip-card-front, .flip-card-inner, .flip-card:hover, .bottom-card, .title{
+      width: 100%;
+    }
+  }
